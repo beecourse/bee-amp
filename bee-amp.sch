@@ -348,7 +348,7 @@ F 0 "R2" H 4980 3304 50  0000 R CNN
 F 1 "0" H 4980 3395 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 3350 50  0001 C CNN
 F 3 "~" H 5050 3350 50  0001 C CNN
-F 4 "SMD-0805 0,00" H 5050 3350 50  0001 C CNN "Reichelt Part No"
+F 4 "RND 0805 1 0" H 5050 3350 50  0001 C CNN "Reichelt Part No"
 F 5 "+rectifier,+inverting" H 5050 3350 50  0001 C CNN "fit_field"
 	1    5050 3350
 	-1   0    0    1   

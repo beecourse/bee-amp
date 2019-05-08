@@ -22,6 +22,7 @@ F 0 "J2" H 956 1478 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1387 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 1300 50  0001 C CNN
 F 3 "~" H 850 1300 50  0001 C CNN
+F 4 "RND 205-00623" H 850 1300 50  0001 C CNN "Reichelt Part No"
 	1    850  1300
 	1    0    0    -1  
 $EndComp
@@ -33,6 +34,7 @@ F 0 "J1" H 956 1128 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1037 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 950 50  0001 C CNN
 F 3 "~" H 850 950 50  0001 C CNN
+F 4 "RND 205-00623" H 850 950 50  0001 C CNN "Reichelt Part No"
 	1    850  950 
 	1    0    0    -1  
 $EndComp
@@ -44,6 +46,7 @@ F 0 "J4" H 956 2328 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 2237 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 2150 50  0001 C CNN
 F 3 "~" H 850 2150 50  0001 C CNN
+F 4 "RND 205-00623" H 850 2150 50  0001 C CNN "Reichelt Part No"
 	1    850  2150
 	1    0    0    -1  
 $EndComp
@@ -121,6 +124,7 @@ F 0 "J3" H 956 1978 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 956 1887 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 850 1800 50  0001 C CNN
 F 3 "~" H 850 1800 50  0001 C CNN
+F 4 "RND 205-00623" H 850 1800 50  0001 C CNN "Reichelt Part No"
 	1    850  1800
 	1    0    0    -1  
 $EndComp
@@ -146,7 +150,7 @@ F 0 "U1" H 5844 3646 50  0000 L CNN
 F 1 "OP07" H 5844 3555 50  0000 L CNN
 F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 5550 3650 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf" H 5550 3750 50  0001 C CNN
-F 4 "OP 07 CD" H 5500 3600 50  0001 C CNN "order number"
+F 4 "OP 07 CD" H 5500 3600 50  0001 C CNN "Reichelt Part No"
 	1    5500 3600
 	1    0    0    -1  
 $EndComp
@@ -158,6 +162,7 @@ F 0 "J7" H 3318 3917 50  0000 C CNN
 F 1 "Conn_01x03" H 3318 3826 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3400 3600 50  0001 C CNN
 F 3 "~" H 3400 3600 50  0001 C CNN
+F 4 "RND 205-00624" H 3400 3600 50  0001 C CNN "Reichelt Part No"
 	1    3400 3600
 	-1   0    0    -1  
 $EndComp
@@ -169,6 +174,7 @@ F 0 "J10" H 8930 3592 50  0000 L CNN
 F 1 "Conn_01x02" H 8930 3501 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 8850 3600 50  0001 C CNN
 F 3 "~" H 8850 3600 50  0001 C CNN
+F 4 "RND 205-00623" H 8850 3600 50  0001 C CNN "Reichelt Part No"
 	1    8850 3600
 	1    0    0    -1  
 $EndComp
@@ -180,7 +186,7 @@ F 0 "C1" H 2715 1246 50  0000 L CNN
 F 1 "0.1µF" H 2715 1155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2638 1050 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=B300%252FKEM_C0XXX_X7R_DB-EN.pdf" H 2600 1200 50  0001 C CNN
-F 4 "KEM X7R0805 100N" H 2600 1200 50  0001 C CNN "order number"
+F 4 "X7R-G0805 100N" H 2600 1200 50  0001 C CNN "Reichelt Part No"
 	1    2600 1200
 	1    0    0    -1  
 $EndComp
@@ -189,9 +195,11 @@ L Device:R R1
 U 1 1 5CC317F6
 P 4500 3700
 F 0 "R1" V 4293 3700 50  0000 C CNN
-F 1 "R" V 4384 3700 50  0000 C CNN
+F 1 "10k" V 4384 3700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4430 3700 50  0001 C CNN
 F 3 "~" H 4500 3700 50  0001 C CNN
+F 4 "SMD-0805 10,0K" H 4500 3700 50  0001 C CNN "Reichelt Part No"
+F 5 "+rectifier,+inverting" H 4500 3700 50  0001 C CNN "fit_field"
 	1    4500 3700
 	0    1    1    0   
 $EndComp
@@ -200,10 +208,11 @@ L Diode:LL4148 D2
 U 1 1 5CC33931
 P 6300 3600
 F 0 "D2" H 6300 3384 50  0000 C CNN
-F 1 "LL4148" H 6300 3475 50  0000 C CNN
+F 1 "1N4148" H 6300 3475 50  0000 C CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6300 3425 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6300 3600 50  0001 C CNN
-F 4 "1N 4148 SMD" H 6300 3600 50  0001 C CNN "order number"
+F 4 "1N 4148 SMD" H 6300 3600 50  0001 C CNN "Reichelt Part No"
+F 5 "+rectifier" H 6300 3600 50  0001 C CNN "fit_field"
 	1    6300 3600
 	-1   0    0    1   
 $EndComp
@@ -249,7 +258,7 @@ F 0 "C2" H 3765 1246 50  0000 L CNN
 F 1 "0.1µF" H 3765 1155 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3688 1050 50  0001 C CNN
 F 3 "https://www.reichelt.de/index.html?ACTION=7&LA=3&OPEN=0&INDEX=0&FILENAME=B300%252FKEM_C0XXX_X7R_DB-EN.pdf" H 3650 1200 50  0001 C CNN
-F 4 "KEM X7R0805 100N" H 3650 1200 50  0001 C CNN "order number"
+F 4 "X7R-G0805 100N" H 3650 1200 50  0001 C CNN "Reichelt Part No"
 	1    3650 1200
 	1    0    0    -1  
 $EndComp
@@ -298,9 +307,10 @@ L Device:R R5
 U 1 1 5CC3EA7D
 P 6550 4500
 F 0 "R5" H 6620 4546 50  0000 L CNN
-F 1 "R" H 6620 4455 50  0000 L CNN
+F 1 "10k" H 6620 4455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6480 4500 50  0001 C CNN
 F 3 "~" H 6550 4500 50  0001 C CNN
+F 4 "SMD-0805 10,0K" H 6550 4500 50  0001 C CNN "Reichelt Part No"
 	1    6550 4500
 	1    0    0    -1  
 $EndComp
@@ -309,9 +319,11 @@ L Device:R R6
 U 1 1 5CC3EF1E
 P 6550 4950
 F 0 "R6" H 6620 4996 50  0000 L CNN
-F 1 "R" H 6620 4905 50  0000 L CNN
+F 1 "1,1k" H 6620 4905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6480 4950 50  0001 C CNN
 F 3 "~" H 6550 4950 50  0001 C CNN
+F 4 "RND 0805 1 1,1K" H 6550 4950 50  0001 C CNN "Reichelt Part No"
+F 5 "+noninverting" H 6550 4950 50  0001 C CNN "fit_field"
 	1    6550 4950
 	1    0    0    -1  
 $EndComp
@@ -320,10 +332,11 @@ L Diode:LL4148 D1
 U 1 1 5CC3F49A
 P 6100 4000
 F 0 "D1" V 6054 4079 50  0000 L CNN
-F 1 "LL4148" V 6145 4079 50  0000 L CNN
+F 1 "1N4148" V 6145 4079 50  0000 L CNN
 F 2 "Diode_SMD:D_MiniMELF" H 6100 3825 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 6100 4000 50  0001 C CNN
-F 4 "1N 4148 SMD" H 6100 4000 50  0001 C CNN "order number"
+F 4 "1N 4148 SMD" H 6100 4000 50  0001 C CNN "Reichelt Part No"
+F 5 "+rectifier" H 6100 4000 50  0001 C CNN "fit_field"
 	1    6100 4000
 	0    1    1    0   
 $EndComp
@@ -332,9 +345,11 @@ L Device:R R2
 U 1 1 5CC3FBC1
 P 5050 3350
 F 0 "R2" H 4980 3304 50  0000 R CNN
-F 1 "R" H 4980 3395 50  0000 R CNN
+F 1 "0" H 4980 3395 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4980 3350 50  0001 C CNN
 F 3 "~" H 5050 3350 50  0001 C CNN
+F 4 "SMD-0805 0,00" H 5050 3350 50  0001 C CNN "Reichelt Part No"
+F 5 "+rectifier,+inverting" H 5050 3350 50  0001 C CNN "fit_field"
 	1    5050 3350
 	-1   0    0    1   
 $EndComp
@@ -427,6 +442,7 @@ F 0 "J8" H 7330 4292 50  0000 L CNN
 F 1 "Conn_01x02" H 7330 4201 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7250 4300 50  0001 C CNN
 F 3 "~" H 7250 4300 50  0001 C CNN
+F 4 "MPE 006-1-002" H 7250 4300 50  0001 C CNN "Reichelt Part No"
 	1    7250 4300
 	1    0    0    -1  
 $EndComp
@@ -438,6 +454,7 @@ F 0 "J9" H 7330 4542 50  0000 L CNN
 F 1 "Conn_01x02" H 7330 4451 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7250 4550 50  0001 C CNN
 F 3 "~" H 7250 4550 50  0001 C CNN
+F 4 "MPE 006-1-002" H 7250 4550 50  0001 C CNN "Reichelt Part No"
 	1    7250 4550
 	1    0    0    -1  
 $EndComp
@@ -458,6 +475,7 @@ F 0 "JP1" V 6504 4077 50  0000 L CNN
 F 1 "Jumper" V 6595 4077 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6550 3950 50  0001 C CNN
 F 3 "~" H 6550 3950 50  0001 C CNN
+F 4 "RND 205-00623" H 6550 3950 50  0001 C CNN "Reichelt Part No"
 	1    6550 3950
 	0    1    1    0   
 $EndComp
@@ -511,7 +529,7 @@ F 0 "RV1" H 5830 1896 50  0000 R CNN
 F 1 "20k" H 5830 1805 50  0000 R CNN
 F 2 "Potentiometer_SMD:Potentiometer_Bourns_3314J_Vertical" H 5900 1850 50  0001 C CNN
 F 3 "https://cdn-reichelt.de/documents/datenblatt/B400/BI-SERIE-23.pdf" H 5900 1850 50  0001 C CNN
-F 4 "23A-20K" H 5900 1850 50  0001 C CNN "order number"
+F 4 "23A-20K" H 5900 1850 50  0001 C CNN "Reichelt Part No"
 	1    5900 1850
 	1    0    0    -1  
 $EndComp
@@ -525,6 +543,7 @@ F 0 "R3" H 5830 1404 50  0000 R CNN
 F 1 "0R" H 5830 1495 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 1450 50  0001 C CNN
 F 3 "~" H 5900 1450 50  0001 C CNN
+F 4 "RND 0805 1 0" H 5900 1450 50  0001 C CNN "Reichelt Part No"
 	1    5900 1450
 	-1   0    0    1   
 $EndComp
@@ -536,6 +555,7 @@ F 0 "R4" H 5830 2204 50  0000 R CNN
 F 1 "0R" H 5830 2295 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5830 2250 50  0001 C CNN
 F 3 "~" H 5900 2250 50  0001 C CNN
+F 4 "RND 0805 1 0" H 5900 2250 50  0001 C CNN "Reichelt Part No"
 	1    5900 2250
 	-1   0    0    1   
 $EndComp
@@ -755,4 +775,6 @@ F 3 "~" H 1950 7400 50  0001 C CNN
 	1    1950 7400
 	1    0    0    -1  
 $EndComp
+Text Notes 5800 3250 0    50   ~ 0
+There are different placement variants to \nallow for different amplifier configurations:\n- rectifier\n- inverting\n- noninverting
 $EndSCHEMATC

@@ -776,5 +776,7 @@ F 3 "~" H 1950 7400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 5800 3250 0    50   ~ 0
-There are different placement variants to \nallow for different amplifier configurations:\n- rectifier\n- inverting\n- noninverting
+There are different placement variants to \nallow for different amplifier configurations\n(see fit_field in component properties):\n- rectifier\n- inverting\n- noninverting
+Text Notes 6500 3500 0    50   ~ 0
+Bridge D2 with 0 Ohm resistor (1206)\nfor (non-)inverting amplifier
 $EndSCHEMATC

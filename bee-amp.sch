@@ -148,7 +148,7 @@ U 1 1 5CC2F7C3
 P 5500 3600
 F 0 "U1" H 5844 3646 50  0000 L CNN
 F 1 "OP07" H 5844 3555 50  0000 L CNN
-F 2 "Package_SO:SO-8_5.3x6.2mm_P1.27mm" H 5550 3650 50  0001 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5550 3650 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf" H 5550 3750 50  0001 C CNN
 F 4 "OP 07 CD" H 5500 3600 50  0001 C CNN "Reichelt Part No"
 	1    5500 3600

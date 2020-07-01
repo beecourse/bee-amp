@@ -178,11 +178,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical-emt_Silkscreen_Label
+# Mechanical-bee_Silkscreen_Label
 #
-DEF Mechanical-emt_Silkscreen_Label H 0 20 Y Y 1 F N
+DEF Mechanical-bee_Silkscreen_Label H 0 20 Y Y 1 F N
 F0 "H" 0 100 50 H V C CNN
-F1 "Mechanical-emt_Silkscreen_Label" 0 -100 50 H V C CNN
+F1 "Mechanical-bee_Silkscreen_Label" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
